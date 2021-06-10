@@ -6,9 +6,11 @@ This camera system was made with the mini-pan tilt system from Adafruit, an ESP3
 Project for EE 327: Electronic System Design II.
 
 ## Organization
-The code I developed over the course is ordered here into Firmware, Image Processing, and Web sections. This project is organized as multiple proof of concepts for the various sections rather than one project with all components nicely interfaced together. Firmware is primarily C/C++ code developed for an ESP32 DEVKIT V1 for the Arduino Environment developed using PlatformIO. Image Processing is primarily Python code exploring the OpenCV library. Web is mostly setup code for an Tornado server with WebSockets and a webpage interface. 
+The code I developed over the course is ordered here into Firmware, Image Processing, and Web sections. This project is organized as multiple proof of concepts for the various sections rather than one project with all components nicely interfaced together. Firmware is primarily C/C++ code developed for an ESP32 DEVKIT V1 for the Arduino Environment developed using PlatformIO. Image Processing is primarily Python code exploring the OpenCV library. Web is mostly setup code for an Tornado server with WebSockets and a webpage interface. PCB contains the two boards designed for this project. 
 
 As of now, to interface the ESP32 with the Tornado Webserver, the address of the server and the local WiFi password must be changed within the main.cpp file.
+
+3D mount: https://cad.onshape.com/documents/40f7b32b21ebe9fb9dda074d/w/69e21c5f167fa995fddc0409/e/9e02c831b684e933273a17e4
 
 ### Copyright © 2021 Leo Ling
 
